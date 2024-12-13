@@ -21,27 +21,27 @@
 
 #include "cbc.h"
 
-#include <coin/CoinModel.hpp>
-#include <coin/CbcModel.hpp>
-#include <coin/OsiSolverInterface.hpp>
+#include <coin-or/CoinModel.hpp>
+#include <coin-or/CbcModel.hpp>
+#include <coin-or/OsiSolverInterface.hpp>
 
-#include "coin/OsiClpSolverInterface.hpp"
+#include "coin-or/OsiClpSolverInterface.hpp"
 
-#include "coin/CbcCutGenerator.hpp"
-#include "coin/CbcHeuristicLocal.hpp"
-#include "coin/CbcHeuristicGreedy.hpp"
-#include "coin/CbcHeuristicFPump.hpp"
-#include "coin/CbcHeuristicRINS.hpp"
+#include "coin-or/CbcCutGenerator.hpp"
+#include "coin-or/CbcHeuristicLocal.hpp"
+#include "coin-or/CbcHeuristicGreedy.hpp"
+#include "coin-or/CbcHeuristicFPump.hpp"
+#include "coin-or/CbcHeuristicRINS.hpp"
 
-#include "coin/CglGomory.hpp"
-#include "coin/CglProbing.hpp"
-#include "coin/CglKnapsackCover.hpp"
-#include "coin/CglOddHole.hpp"
-#include "coin/CglClique.hpp"
-#include "coin/CglFlowCover.hpp"
-#include "coin/CglMixedIntegerRounding.hpp"
+#include "coin-or/CglGomory.hpp"
+#include "coin-or/CglProbing.hpp"
+#include "coin-or/CglKnapsackCover.hpp"
+#include "coin-or/CglOddHole.hpp"
+#include "coin-or/CglClique.hpp"
+#include "coin-or/CglFlowCover.hpp"
+#include "coin-or/CglMixedIntegerRounding.hpp"
 
-#include "coin/CbcHeuristic.hpp"
+#include "coin-or/CbcHeuristic.hpp"
 
 namespace lemon {
 

@@ -17,7 +17,7 @@
  */
 
 #include <lemon/clp.h>
-#include <coin/ClpSimplex.hpp>
+#include <coin-or/ClpSimplex.hpp>
 
 namespace lemon {
 
